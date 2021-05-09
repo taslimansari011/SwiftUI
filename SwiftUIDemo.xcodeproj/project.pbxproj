@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461D58902647C281003DF43E /* MyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D588F2647C281003DF43E /* MyButtonView.swift */; };
+		461D58932647C560003DF43E /* MyTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D58922647C560003DF43E /* MyTextFieldView.swift */; };
 		467AB59A2642A7B70065FFFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467AB5992642A7B70065FFFB /* AppDelegate.swift */; };
 		467AB59C2642A7B70065FFFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467AB59B2642A7B70065FFFB /* SceneDelegate.swift */; };
 		467AB59E2642A7B70065FFFB /* SwiftUIFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467AB59D2642A7B70065FFFB /* SwiftUIFramework.swift */; };
@@ -17,9 +19,17 @@
 		4680059726467F0A003D79EA /* LayoutGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680059626467F0A003D79EA /* LayoutGroups.swift */; };
 		4680059B26468B7A003D79EA /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680059A26468B7A003D79EA /* DescriptionView.swift */; };
 		4680059F26468B95003D79EA /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680059E26468B95003D79EA /* TitleView.swift */; };
+		46A87F99264695FC00CBDB5E /* PropertyWrappersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A87F98264695FC00CBDB5E /* PropertyWrappersView.swift */; };
+		46A87F9E2646A5AB00CBDB5E /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A87F9D2646A5AB00CBDB5E /* AppData.swift */; };
+		46A87FA12646A7DD00CBDB5E /* BookDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A87FA02646A7DD00CBDB5E /* BookDataView.swift */; };
+		46FA69C32647C9C400CFC74A /* ToggleSliderStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FA69C22647C9C400CFC74A /* ToggleSliderStepperView.swift */; };
+		46FA69C62647EC9900CFC74A /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FA69C52647EC9900CFC74A /* MyNavigationView.swift */; };
+		46FA69C92647F29D00CFC74A /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FA69C82647F29D00CFC74A /* MyTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		461D588F2647C281003DF43E /* MyButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonView.swift; sourceTree = "<group>"; };
+		461D58922647C560003DF43E /* MyTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextFieldView.swift; sourceTree = "<group>"; };
 		467AB5962642A7B70065FFFB /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		467AB5992642A7B70065FFFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		467AB59B2642A7B70065FFFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +42,12 @@
 		4680059626467F0A003D79EA /* LayoutGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutGroups.swift; sourceTree = "<group>"; };
 		4680059A26468B7A003D79EA /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		4680059E26468B95003D79EA /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		46A87F98264695FC00CBDB5E /* PropertyWrappersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappersView.swift; sourceTree = "<group>"; };
+		46A87F9D2646A5AB00CBDB5E /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		46A87FA02646A7DD00CBDB5E /* BookDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDataView.swift; sourceTree = "<group>"; };
+		46FA69C22647C9C400CFC74A /* ToggleSliderStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSliderStepperView.swift; sourceTree = "<group>"; };
+		46FA69C52647EC9900CFC74A /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		46FA69C82647F29D00CFC74A /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +80,7 @@
 		467AB5982642A7B70065FFFB /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				46A87F9C2646A59600CBDB5E /* Models */,
 				468005A626468C7A003D79EA /* CoreData */,
 				468005A526468C6F003D79EA /* Storyboards */,
 				468005A426468C55003D79EA /* Resources */,
@@ -95,8 +112,14 @@
 		468005A226468C28003D79EA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				46A87F97264695E600CBDB5E /* PropertyWrappers */,
 				467AB59D2642A7B70065FFFB /* SwiftUIFramework.swift */,
 				4680059926468B63003D79EA /* LayoutGroupsView */,
+				461D588F2647C281003DF43E /* MyButtonView.swift */,
+				461D58922647C560003DF43E /* MyTextFieldView.swift */,
+				46FA69C22647C9C400CFC74A /* ToggleSliderStepperView.swift */,
+				46FA69C52647EC9900CFC74A /* MyNavigationView.swift */,
+				46FA69C82647F29D00CFC74A /* MyTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,6 +156,23 @@
 				467AB59F2642A7B70065FFFB /* SwiftUIDemo.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		46A87F97264695E600CBDB5E /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				46A87F98264695FC00CBDB5E /* PropertyWrappersView.swift */,
+				46A87FA02646A7DD00CBDB5E /* BookDataView.swift */,
+			);
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
+		46A87F9C2646A59600CBDB5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46A87F9D2646A5AB00CBDB5E /* AppData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,12 +246,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				4680059F26468B95003D79EA /* TitleView.swift in Sources */,
+				461D58902647C281003DF43E /* MyButtonView.swift in Sources */,
+				46A87F99264695FC00CBDB5E /* PropertyWrappersView.swift in Sources */,
+				461D58932647C560003DF43E /* MyTextFieldView.swift in Sources */,
+				46FA69C92647F29D00CFC74A /* MyTabView.swift in Sources */,
 				467AB5A12642A7B70065FFFB /* SwiftUIDemo.xcdatamodeld in Sources */,
+				46A87FA12646A7DD00CBDB5E /* BookDataView.swift in Sources */,
+				46FA69C62647EC9900CFC74A /* MyNavigationView.swift in Sources */,
+				46FA69C32647C9C400CFC74A /* ToggleSliderStepperView.swift in Sources */,
 				4680059726467F0A003D79EA /* LayoutGroups.swift in Sources */,
 				467AB59A2642A7B70065FFFB /* AppDelegate.swift in Sources */,
 				4680059B26468B7A003D79EA /* DescriptionView.swift in Sources */,
 				467AB59C2642A7B70065FFFB /* SceneDelegate.swift in Sources */,
 				467AB59E2642A7B70065FFFB /* SwiftUIFramework.swift in Sources */,
+				46A87F9E2646A5AB00CBDB5E /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
